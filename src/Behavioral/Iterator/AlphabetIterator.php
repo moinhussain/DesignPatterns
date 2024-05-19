@@ -25,7 +25,6 @@ class AlphabetIterator implements Iterator {
 	public function rewind(): void
 	{
 		$this->position = 0;
-		
 	}
 
 	public function valid(): bool
